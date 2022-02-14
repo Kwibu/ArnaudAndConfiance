@@ -4,3 +4,16 @@
 section {
   min-height: 100vh;
 }
+
+#nav-bar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 800px) {
+  section {
+    color: brown;
+  }
+}
