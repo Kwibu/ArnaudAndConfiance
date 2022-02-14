@@ -5,11 +5,27 @@ section {
   min-height: 100vh;
 }
 
+section , #header-img {
+  margin-top: 45px;
+}
+
 #nav-bar {
   position: fixed;
   width: 100%;
   top: 0;
   left: 0;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 6rem;
+  background-color: white;
+  box-shadow: 0 2px 4px #ccc;
+}
+
+#nav-bar > a {
+  margin: 0 1rem;
 }
 
 @media screen and (max-width: 800px) {
